@@ -61,10 +61,11 @@ int main() {
                                  "   329  1"};
         
         cout << "Making Sudoku board for an easy puzzle:\n";
+
         for (const auto & s : easyBoard) {
             cout << s << endl;
         }
-                                 
+
         vector<string> easyAnswer{  "234915786",
                                     "189276543",
                                     "657438192",
@@ -74,8 +75,8 @@ int main() {
                                     "328641975",
                                     "916857234",
                                     "745329861"};
-   
-                                 
+
+
         unique_ptr<Sudoku> board(new Sudoku(9));
 
         if (!fillBoard(board.get(), easyBoard)) {

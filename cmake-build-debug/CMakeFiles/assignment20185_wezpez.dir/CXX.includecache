@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BasicSudoku.cpp
+Sudoku.h
+/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Sudoku.h
+vector
+-
+string
+-
+iostream
+-
+
+/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Searchable.h
+vector
+-
+memory
+-
+iostream
+-
+
+/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Sudoku.h
+Searchable.h
+/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Searchable.h
+vector
+-
+set
+-
+iostream
+-
+algorithm
+-
+utility
+-
+math.h
+-
+
