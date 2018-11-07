@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BasicSudoku.cpp">
+		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BestFirstSearch.h">
+			<Option target="assignment20185_wezpez"/>
+		</Unit>
+		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BreadthFSSudoku.cpp">
+			<Option target="assignment20185_wezpez"/>
+		</Unit>
+		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Searchable.h">
+			<Option target="assignment20185_wezpez"/>
+		</Unit>
+		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Searcher.h">
 			<Option target="assignment20185_wezpez"/>
 		</Unit>
 		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Sudoku.h">
+			<Option target="assignment20185_wezpez"/>
+		</Unit>
+		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/SudokuSquare.h">
 			<Option target="assignment20185_wezpez"/>
 		</Unit>
 		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/CMakeLists.txt">

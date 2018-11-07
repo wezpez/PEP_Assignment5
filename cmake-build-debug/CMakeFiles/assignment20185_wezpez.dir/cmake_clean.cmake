@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.o"
+  "CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.o"
   "assignment20185_wezpez.pdb"
   "assignment20185_wezpez"
 )

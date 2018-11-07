@@ -6,14 +6,24 @@
 
 #IncludeRegexTransform: 
 
-/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BasicSudoku.cpp
+/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BreadthFSSudoku.cpp
 Sudoku.h
 /Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Sudoku.h
+BreadthFirstSearch.h
+/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BreadthFirstSearch.h
 vector
 -
 string
 -
 iostream
+-
+
+/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BreadthFirstSearch.h
+Searchable.h
+/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Searchable.h
+memory
+-
+deque
 -
 
 /Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/Searchable.h

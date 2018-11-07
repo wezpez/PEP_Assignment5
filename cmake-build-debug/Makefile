@@ -123,32 +123,32 @@ assignment20185_wezpez/fast:
 	$(MAKE) -f CMakeFiles/assignment20185_wezpez.dir/build.make CMakeFiles/assignment20185_wezpez.dir/build
 .PHONY : assignment20185_wezpez/fast
 
-BasicSudoku.o: BasicSudoku.cpp.o
+BreadthFSSudoku.o: BreadthFSSudoku.cpp.o
 
-.PHONY : BasicSudoku.o
+.PHONY : BreadthFSSudoku.o
 
 # target to build an object file
-BasicSudoku.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment20185_wezpez.dir/build.make CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.o
-.PHONY : BasicSudoku.cpp.o
+BreadthFSSudoku.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment20185_wezpez.dir/build.make CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.o
+.PHONY : BreadthFSSudoku.cpp.o
 
-BasicSudoku.i: BasicSudoku.cpp.i
+BreadthFSSudoku.i: BreadthFSSudoku.cpp.i
 
-.PHONY : BasicSudoku.i
+.PHONY : BreadthFSSudoku.i
 
 # target to preprocess a source file
-BasicSudoku.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment20185_wezpez.dir/build.make CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.i
-.PHONY : BasicSudoku.cpp.i
+BreadthFSSudoku.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment20185_wezpez.dir/build.make CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.i
+.PHONY : BreadthFSSudoku.cpp.i
 
-BasicSudoku.s: BasicSudoku.cpp.s
+BreadthFSSudoku.s: BreadthFSSudoku.cpp.s
 
-.PHONY : BasicSudoku.s
+.PHONY : BreadthFSSudoku.s
 
 # target to generate assembly for a file
-BasicSudoku.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment20185_wezpez.dir/build.make CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.s
-.PHONY : BasicSudoku.cpp.s
+BreadthFSSudoku.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment20185_wezpez.dir/build.make CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.s
+.PHONY : BreadthFSSudoku.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... assignment20185_wezpez"
-	@echo "... BasicSudoku.o"
-	@echo "... BasicSudoku.i"
-	@echo "... BasicSudoku.s"
+	@echo "... BreadthFSSudoku.o"
+	@echo "... BreadthFSSudoku.i"
+	@echo "... BreadthFSSudoku.s"
 .PHONY : help
 
 

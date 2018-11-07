@@ -57,27 +57,27 @@ include CMakeFiles/assignment20185_wezpez.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/assignment20185_wezpez.dir/flags.make
 
-CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.o: CMakeFiles/assignment20185_wezpez.dir/flags.make
-CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.o: ../BasicSudoku.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.o -c /Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BasicSudoku.cpp
+CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.o: CMakeFiles/assignment20185_wezpez.dir/flags.make
+CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.o: ../BreadthFSSudoku.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.o -c /Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BreadthFSSudoku.cpp
 
-CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BasicSudoku.cpp > CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.i
+CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BreadthFSSudoku.cpp > CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.i
 
-CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BasicSudoku.cpp -o CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.s
+CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/BreadthFSSudoku.cpp -o CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.s
 
 # Object files for target assignment20185_wezpez
 assignment20185_wezpez_OBJECTS = \
-"CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.o"
+"CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.o"
 
 # External object files for target assignment20185_wezpez
 assignment20185_wezpez_EXTERNAL_OBJECTS =
 
-assignment20185_wezpez: CMakeFiles/assignment20185_wezpez.dir/BasicSudoku.cpp.o
+assignment20185_wezpez: CMakeFiles/assignment20185_wezpez.dir/BreadthFSSudoku.cpp.o
 assignment20185_wezpez: CMakeFiles/assignment20185_wezpez.dir/build.make
 assignment20185_wezpez: CMakeFiles/assignment20185_wezpez.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20185-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable assignment20185_wezpez"

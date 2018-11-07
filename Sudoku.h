@@ -13,7 +13,7 @@ using std::set;
 
 // TODO: Your Sudoku class goes here:
 
-class Sudoku {
+class Sudoku : public Searchable {
 
 private:
     int boardSize;
@@ -111,9 +111,68 @@ public:
             }
         }
 
+
         return true;
 
     }
+
+
+    bool isSolution() const{
+        bool onlyOne = true;
+
+        for (int i = 0; i < boardSize; i++) {
+            for (int j = 0; j < boardSize; j++) {
+                if (solution[i][j].size() != 1){
+                    onlyOne = false;
+                }
+            }
+        }
+
+        return onlyOne;
+    }
+
+    void write(ostream & o) const{
+
+        for (int i = 0; i < boardSize; i++) {
+            for (int j = 0; j < boardSize; j++) {
+                if (solution[i][j].size() == 1){
+                    o << *solution[i][j].begin();
+                }
+                else {
+                    o << " ";
+                }
+            }
+            o << "\n";
+        }
+    }
+
+    vector<unique_ptr<Searchable> > successors() const{
+
+        vector<unique_ptr<Searchable> > successors;
+
+
+        for (int i = 0; i < boardSize; i++) {
+            for (int j = 0; j < boardSize; j++) {
+                if (solution[i][j].size() != 1){
+                    for(int x : solution[i][j]){
+                        auto* testBoard = new Sudoku(*this);
+
+                        if(testBoard ->setSquare(i,j,x)){
+                            successors.push_back(unique_ptr<Searchable>(testBoard));
+                        }
+                        else {
+                             delete testBoard;
+                        }
+                    }
+                    return successors;
+                }
+
+            }
+        }
+
+    }
+
+
 
 };
 

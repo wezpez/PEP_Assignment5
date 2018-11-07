@@ -6,5 +6,10 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(assignment20185_wezpez
-        BasicSudoku.cpp
-        Sudoku.h)
+        BreadthFSSudoku.cpp
+        BestFirstSearch.h
+        BestFirstSearch.h
+        Searcher.h
+        SudokuSquare.h
+        Sudoku.h
+        Searchable.h)
